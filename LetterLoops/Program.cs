@@ -18,7 +18,15 @@ namespace LetterLoops
                 //Console.WriteLine(i);
                 for (var x = 0; x < i; x++)
                 {
+                    if (x == 0)
+                    {
+                        Console.Write(Char.ToUpper(letter));
+                    }
                     Console.Write(letter);
+                    if ((x+1) == i)
+                    {
+                        Console.Write("-");
+                    }
                 }
             }
 
