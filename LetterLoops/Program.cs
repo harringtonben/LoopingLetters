@@ -10,6 +10,10 @@ namespace LetterLoops
     {
         static void Main(string[] args)
         {
+            var LoopThis = new Looping { ConsoleLoop = Console.ReadLine() };
+
+            Console.WriteLine(LoopThis.ConsoleLoop);
+            Console.Read();
         }
     }
 }
