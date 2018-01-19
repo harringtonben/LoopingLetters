@@ -22,22 +22,21 @@ namespace LetterLoops
                     {
                         Console.Write(Char.ToUpper(letter));
                     }
-                    Console.Write(letter);
+                    else
+                    {
+                        Console.Write(letter);
+                    }
                     if ((x+1) == i)
                     {
                         Console.Write("-");
                     }
                 }
+                
             }
+            Console.Write("\b");
+            Console.Write(" ");
+            Console.Write("\b");
 
-            
-            
-
-            
-
-            //Console.WriteLine(LoopThis.ConsoleLoop);
-            
-            
             Console.Read();
         }
     }
