@@ -6,6 +6,6 @@ namespace LetterLoops
 {
     class Looping
     {
-        new public string ConsoleLoop { get; set; }
+        new public string ConsoleLoop { get; set; }    
     }
 }
