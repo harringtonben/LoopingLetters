@@ -9,7 +9,6 @@ namespace LetterLoops
         static void Main(string[] args)
         {
             var LoopThis = new Looping { ConsoleLoop = Console.ReadLine() };
-            var InputLetters = new List<Looping>();
             var i = 0;
 
             foreach (var letter in LoopThis.ConsoleLoop)
@@ -33,10 +32,7 @@ namespace LetterLoops
                 }
                 
             }
-            Console.Write("\b");
-            Console.Write(" ");
-            Console.Write("\b");
-
+            Console.Write("\b \b");
             Console.Read();
         }
     }
